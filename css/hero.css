@@ -4,18 +4,24 @@ body{
 	font-size: 20px;
 	line-height: 40px;
 
+
 }
+
+
+
+} 
 
 h1,h2{
 	font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
 #pic1{
-	width: 400px;
-	height:370px;
+	width: 600px;
+	height:570px;
 	object-fit: cover;
 	border-radius: 50%;
-	border: 5px solid #5d6823;
+	border: 20px solid white;
+	margin:50px;
 }
 
 #pic2{
@@ -25,14 +31,25 @@ h1,h2{
 
 
 header{
-	background-color: #001f4e;
 	text-align: center;
+	padding-top:50px;
+	padding-bottom: 50px;
+	width: 3200px;
+	height: 750px;
+	background-image: url("img/horsediane1.jpg")
+
+
+
 }
+
 
 
 header h1{
 	color: #6f7c29;
 	font-size: 50px;
+	  top: -125px;
+
+
 
 }
 
@@ -82,3 +99,9 @@ p.caption{
 	font-style: italic;
 	margin-top: 0;
 }
+
+ul{    list-style-position: inside;
+
+}
+
+ol { list-style-position: inside;}
